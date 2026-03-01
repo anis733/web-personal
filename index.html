@@ -2,44 +2,57 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Web Personal - Beranda</title>
+    <title>Portfolio - M. Anis Fathin</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Web Personal Mahasiswa</h1>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="about.html">Tentang Saya</a>
-        </nav>
-    </header>
+<header>
+    <h2 class="logo">Anis.dev</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
 
-    <section class="profile">
-        <img src="foto.jpg" alt="Foto Profil" class="foto">
-        <h2>Nama: M.Anis Fathin</h2>
-        <p>NPM: 2408107010045</p>
-    </section>
+<section class="hero">
+    <img src="foto.jpg" alt="Foto Profil">
+    <h1>M. Anis Fathin</h1>
+    <p>NPM: 2408107010045</p>
+    <h3><span class="typing"></span></h3>
 
-    <section>
-        <h3>Data Akademik</h3>
-        <table>
-            <tr>
-                <th>Semester</th>
-                <th>Program Studi</th>
-                <th>Universitas</th>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Informatika</td>
-                <td>Universitas Syiah Kuala</td>
-            </tr>
-        </table>
-    </section>
+    <div class="buttons">
+        <a href="cv.pdf" class="btn" download>Download CV</a>
+        <a href="#data" class="btn-outline">Lihat Data</a>
+    </div>
 
-    <footer>
-        <p>© 2026 Web Personal Mahasiswa</p>
-    </footer>
+    <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+    </div>
+</section>
 
+<section id="data" class="card fade">
+    <h2>Data Akademik</h2>
+    <table>
+        <tr>
+            <th>Semester</th>
+            <th>Program Studi</th>
+            <th>Universitas</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Informatika</td>
+            <td>Universitas Syiah Kuala</td>
+        </tr>
+    </table>
+</section>
+
+<footer>
+    © 2026 M. Anis Fathin | Portfolio
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
