@@ -35,4 +35,13 @@ window.addEventListener("scroll", () => {
             el.classList.add("show");
         }
     });
+    
+    document.addEventListener("DOMContentLoaded", function() {
+    const faders = document.querySelectorAll(".fade");
+
+    faders.forEach((el, index) => {
+        setTimeout(() => {
+            el.classList.add("show");
+        }, index * 300);
+    });
 });
