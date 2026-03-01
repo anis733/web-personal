@@ -164,4 +164,20 @@ footer {
     .card {
         width: 95%;
     }
+
+    /* Skill */
+.skill {
+    margin: 15px 0;
+}
+
+.progress {
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 10px;
+    background: #00f2fe;
+   }
 }
